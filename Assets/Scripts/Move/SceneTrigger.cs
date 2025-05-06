@@ -9,7 +9,7 @@ public class SceneTrigger : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        Debug.Log("이동 중");
+        //Debug.Log("이동 중");
         SceneManager.LoadScene(GameScene);
     }
 

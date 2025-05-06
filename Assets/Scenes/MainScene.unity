@@ -1400,10 +1400,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "best score\n\ncurrent score\n\n\n\t\tO\r\n   \t\t  \xB0.\r"
+  m_text: "\uCD5C\uACE0 \uC810\uC218\n\n\uD604\uC7AC \uC810\uC218\n\n\n\t\tO\r\n  
+    \t\t  \xB0.\r"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8b61fef6e0b46b2429211eb1e3eadcc4, type: 2}
+  m_sharedMaterial: {fileID: 1959486920537480485, guid: 8b61fef6e0b46b2429211eb1e3eadcc4, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2402,16 +2403,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Welcome to Sparta Metaverse.
-
-
-    You can start the game
-
-    through
-    the underground passage
-
-
-    or check your score through the NPC on the left.'
+  m_text: "\uC2A4\uD30C\uB974\uD0C0 \uBA54\uD0C0\uBC84\uC2A4\uC5D0 \uC624\uC2E0 \uC5EC\uB7EC\uBD84
+    \uD658\uC601\uD569\uB2C8\uB2E4.\n\n\uC9C0\uD558\uB85C \uB0B4\uB824\uAC00 \uAC8C\uC784\uC744
+    \uD50C\uB808\uC774 \uD558\uAC70\uB098,\nNPC\uC5D0\uAC8C\uC11C \uC810\uC218\uB97C
+    \uD655\uC778\uD560 \uC218 \uC788\uC2B5\uB2C8\uB2E4.\n\n\uC990\uAC70\uC6B4 \uAC8C\uC784
+    \uB418\uC138\uC694."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8b61fef6e0b46b2429211eb1e3eadcc4, type: 2}
   m_sharedMaterial: {fileID: 1959486920537480485, guid: 8b61fef6e0b46b2429211eb1e3eadcc4, type: 2}
@@ -2438,8 +2434,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 50
-  m_fontSizeBase: 50
+  m_fontSize: 40
+  m_fontSizeBase: 40
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -3718,51 +3714,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2018302831}
   m_CullTransparentMesh: 1
---- !u!1 &2023574451
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2023574453}
-  - component: {fileID: 2023574452}
-  m_Layer: 0
-  m_Name: SpartaGameManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &2023574452
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2023574451}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f9f0e57aa49c4ed4a9731d1f95dc7341, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  scoreText: {fileID: 1661860844}
---- !u!4 &2023574453
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2023574451}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2032311114
 GameObject:
   m_ObjectHideFlags: 0
@@ -3901,6 +3852,52 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c85f3db8a2f8bd04986a8d002eb8e505, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &2138513852
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2138513854}
+  - component: {fileID: 2138513853}
+  m_Layer: 0
+  m_Name: FB_GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2138513853
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2138513852}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9f0e57aa49c4ed4a9731d1f95dc7341, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  C_ScoreText: {fileID: 53945036}
+  B_ScoreText: {fileID: 1661860844}
+--- !u!4 &2138513854
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2138513852}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2141102864
 GameObject:
   m_ObjectHideFlags: 0
@@ -5539,4 +5536,4 @@ SceneRoots:
   - {fileID: 587309651}
   - {fileID: 2032311119}
   - {fileID: 681193513}
-  - {fileID: 2023574453}
+  - {fileID: 2138513854}

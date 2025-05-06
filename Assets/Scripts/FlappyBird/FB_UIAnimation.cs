@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class FlappyUIAnimation : MonoBehaviour
+public class FB_UIAnimation : MonoBehaviour
 {
     private static bool isShow = false;
 

@@ -121,7 +121,7 @@ PolygonCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0.01}
     pivot: {x: 0.5, y: 0}
-    oldSize: {x: 1.09, y: 2.39}
+    oldSize: {x: 1.07, y: 2.39}
     newSize: {x: 1.09, y: 2.39}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -208,7 +208,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 4730503036184693815}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4485cee2dc0f39f48845d49a435dd2fb, type: 3}
+  m_Script: {fileID: 11500000, guid: cef8244f6dce8e644aeb271edeb52542, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   highPosY: 1
