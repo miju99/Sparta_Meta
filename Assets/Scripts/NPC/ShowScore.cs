@@ -21,6 +21,20 @@ public class ShowScore : MonoBehaviour
 
     void Update()
     {
+
+        if (Input.GetKeyDown(KeyCode.F1))
+        {
+            //PlayerPrefs.DeleteAll();
+            PlayerPrefs.DeleteKey(bestScoreKey);
+            PlayerPrefs.DeleteKey("CurrentScore");
+            PlayerPrefs.Save();
+
+            C_ScoreText.text = "0";
+            B_ScoreText.text = "0";
+
+            Debug.Log("점수 초기화!");
+        }
+
         if (FB_GameManager.Instance != null)
             //게임매니저에서 현재 점수를 가져오기 위해 값이 비어있지 않은 지 체크
         {
