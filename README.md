@@ -2,7 +2,18 @@
 스파르타 메타버스 만들기 과제 (개인)
 
 ## 영상 🎥
-![Sparta_Meta - MainScene - Windows, Mac, Linux - Unity 2022 3 17f1 _DX11_ 2025-05-07 10-02-22 (online-video-cutter com)](https://github.com/user-attachments/assets/182f3227-2c65-4f61-83da-1adc06255121)
+1. MainScene   
+![MainScene](https://github.com/user-attachments/assets/9d9a4f12-c6e9-4ed3-a8b4-400f9334c0d9)
+
+2. MiniGame   
+![MiniGame](https://github.com/user-attachments/assets/dc2b7202-0335-4e3e-ac26-02d767a78956)
+
+3. ScoreCheck   
+![CheckScore](https://github.com/user-attachments/assets/4cb6c5b9-4df0-4079-9334-872d2fad748a)
+
+4. BestScore   
+![BestScore](https://github.com/user-attachments/assets/7a517dad-de85-40ac-af48-7da5a49922ae)
+
 
 ## 설치 방법
 `git clone https://github.com/miju99/Sparta_Meta.git`
