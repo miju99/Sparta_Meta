@@ -4,16 +4,17 @@ using UnityEngine;
 
 public class PlayerController : BaseController
 {
-    private new Camera camera;
+    private Camera mainCamera;
       //new : 부모클래스에 같은 이름의 멤버가 있는 경우 덮어쓴다는 의미를 명확히 하기 위해 사용
       //Unity의 메인 카메라 참조
       //BaseController에 camera가 없는데 왜 new를 써야 하나요? 지우면 경고가 뜹니다.
-
+      // => 노란 경고는 무시해도 상관 없다!
+      // *최종* : camera가 이미 Unity에서 사용되고 있기 때문에 mainCamera로 변경하면 안 뜬다!
 
     protected override void Start()
     {
         base.Start(); //부모 클래스의 Start() 호출
-        camera = Camera.main;
+        mainCamera = Camera.main;
     }
 
 
@@ -31,7 +32,7 @@ public class PlayerController : BaseController
           //animationHandler에 애니메이션 처리
 
         Vector2 mousePosition = Input.mousePosition; //마우스 위치(좌표) 가져오기
-        Vector2 worldPos = camera.ScreenToWorldPoint(mousePosition);
+        Vector2 worldPos = mainCamera.ScreenToWorldPoint(mousePosition);
           //마우스의 좌표를 월드 좌표로 변환
         lookDirection = (worldPos - (Vector2)transform.position);
           //마우스 좌표에서 캐릭터의 좌표를 뺌으로써 캐릭터가 바라봐야 할 방향을 구함.

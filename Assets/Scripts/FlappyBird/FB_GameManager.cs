@@ -11,6 +11,7 @@ public class FB_GameManager : MonoBehaviour
 {
     public static FB_GameManager gameManager; //자신을 참조할 수 있는 static 변수
     public Button G_StartButton;
+    public Button Info;
 
     private int currentScore = 0;
     public static FB_GameManager Instance //게임매니저 싱글톤 변수를 외부로 가져갈 수 있게 하는 프로퍼티(Instance)
@@ -67,13 +68,14 @@ public class FB_GameManager : MonoBehaviour
         if (gameStart) return; //게임을 한 번만 실행하기 위해
 
         G_StartButton.gameObject.SetActive(false); //버튼 비활성화
+        Info.gameObject.SetActive(false);
         gameStart = true; //게임이 시작된 상태임을 알림.
         Time.timeScale = 1f; //게임 시작(시간 흐름)
     }
 
     public void GameOver()
     {
-        Debug.Log("Game Over");
+        //Debug.Log("Game Over");
 
         PlayerPrefs.SetInt("CurrentScore", currentScore); //게임 오버 시 점수 저장
         float bestScore = PlayerPrefs.GetInt("BestScore", 0); //bestScore이 없으면 0을 출력
